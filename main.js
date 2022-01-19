@@ -20,7 +20,7 @@ const tourJoueur = () => `C'est au tour du joueur ${joueurActif}`;
 
 statut.innerHTML = tourJoueur();
 
-document.querySelectorAll(".box").forEach(cell => cell.addEventListener('click', gestionClicCase));
+ const joueur = document.querySelectorAll(".box").forEach(cell => cell.addEventListener('click', gestionClicCase));
 document.querySelector('#recommencer').addEventListener('click', recommencer);
 
 function gestionClicCase() {
@@ -74,3 +74,5 @@ function recommencer() {
     statut.innerHTML = tourJoueur()
     document.querySelectorAll('.box').forEach((cell => cell.innerHTML = ''))
 }
+
+

@@ -33,9 +33,9 @@ h1 {
     color: #030303;
     font-weight: 800;
 }
-.box:nth-child(odd){
+/* .box:nth-child(odd){
     color: #00C9AA;
-}
+} */
 
 h2 {
     padding: 30px 0;
